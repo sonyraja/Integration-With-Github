@@ -6,11 +6,6 @@ phases:
     runtime-versions:
       nodejs: 12.x
     commands:
-      - echo "Install Prequisites"
-      - echo $CROSS_ACCOUNT_ROLE
-      - echo $CLOUDFORMATION_EXECUTION_ROLE
-      - echo $DESTINATION_ACCOUNT_ID
-      - echo $STAGE
       - cd $CODEBUILD_SRC_DIR
       - mkdir ./serverless-package
       - chmod +x aws-profile-setup.sh

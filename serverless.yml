@@ -1,6 +1,5 @@
 service: product-catalog-service
 
-
 package:
   exclude:
     - ./**
